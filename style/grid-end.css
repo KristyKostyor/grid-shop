@@ -1,0 +1,36 @@
+.grid__item__wrapper-eight {
+    background-image: linear-gradient(181.33deg, rgba(0, 0, 0, 0) 9.23%, rgba(0, 0, 0, 0.2) 98.87%), url('../img/date.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 1 / span 4;
+    grid-row: 6/ span 2;
+    border-radius: 20px;
+}
+
+.grid__item__wrapper-nine {
+    background-image: linear-gradient(181.33deg, rgba(0, 0, 0, 0) 9.23%, rgba(0, 0, 0, 0.2) 98.87%), url('../img/woman.png');
+    background-position: center;
+    background-size: cover;
+    grid-column: 5 / span 1;
+    grid-row: 6/ span 2;
+    border-radius: 20px;
+}
+
+.grid__item__wrapper-ten {
+    background-image: linear-gradient(181.33deg, rgba(0, 0, 0, 0) 9.23%, rgba(0, 0, 0, 0.2) 98.87%), url('../img/clean.png');
+    background-position: center;
+    background-size: cover;
+    grid-column: 6 / span 1;
+    grid-row: 6/ span 1;
+    border-radius: 20px;
+}
+
+.grid__item__wrapper-eleven {
+    background-image: linear-gradient(181.33deg, rgba(0, 0, 0, 0) 9.23%, rgba(0, 0, 0, 0.2) 98.87%), url('../img/balls.png');
+    background-position: center;
+    background-size: cover;
+    grid-column: 6 / span 1;
+    grid-row: 6 span 1;
+    border-radius: 20px;
+}
