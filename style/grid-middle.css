@@ -10,7 +10,7 @@
 .grid__item__text-two {
     max-width: 190px;
     font-weight: 400px;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 130%;
     padding-left: 20px;
 
@@ -19,7 +19,7 @@
 .grid__item__text-two span {
     color: var(--main-color);
     font-weight: 700px;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 130%;
     padding: 0;
 }
@@ -72,8 +72,8 @@
     line-height: 120%;
     background-color: #38C0EB;
     border-radius: 20px;
-    
-   
+    justify-self: flex-end;
+
 }
 
 .grid__item__wrapper-six {
@@ -83,6 +83,12 @@
     grid-column: 5 / span 2;
     grid-row: 4/ span 1;
     border-radius: 20px;
+}
+
+.grid__item__text-six {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
 }
 
 .grid__item__wrapper-seven {
