@@ -1,36 +1,58 @@
-.grid__item__wrapper-eight {
+.grid__item__wrapper-date {
     background-image: linear-gradient(181.33deg, rgba(0, 0, 0, 0) 9.23%, rgba(0, 0, 0, 0.2) 98.87%), url('../img/date.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     grid-column: 1 / span 4;
-    grid-row: 6/ span 2;
+    grid-row: 3/ span 2;
     border-radius: 20px;
 }
 
-.grid__item__wrapper-nine {
+.grid__item__text-date {
+    width: 500px;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    background-color: var(--main-color);
+    text-transform: uppercase;
+    color: #F91155;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.grid__item__wrapper-woman {
     background-image: linear-gradient(181.33deg, rgba(0, 0, 0, 0) 9.23%, rgba(0, 0, 0, 0.2) 98.87%), url('../img/woman.png');
     background-position: center;
-    background-size: cover;
+    background-size: 90%;
     grid-column: 5 / span 1;
-    grid-row: 6/ span 2;
+    grid-row: 3/ span 2;
     border-radius: 20px;
+    background-repeat: no-repeat;
 }
 
-.grid__item__wrapper-ten {
+.grid__item__wrapper-clean {
     background-image: linear-gradient(181.33deg, rgba(0, 0, 0, 0) 9.23%, rgba(0, 0, 0, 0.2) 98.87%), url('../img/clean.png');
     background-position: center;
     background-size: cover;
     grid-column: 6 / span 1;
-    grid-row: 6/ span 1;
+    grid-row: 3/ span 1;
     border-radius: 20px;
 }
 
-.grid__item__wrapper-eleven {
+.grid__item__text-clean {
+    padding-top: 10px;
+    font-size: 20px;
+    line-height: 130%;
+
+}
+
+.grid__item__wrapper-balls {
     background-image: linear-gradient(181.33deg, rgba(0, 0, 0, 0) 9.23%, rgba(0, 0, 0, 0.2) 98.87%), url('../img/balls.png');
     background-position: center;
     background-size: cover;
-    grid-column: 6 / span 1;
-    grid-row: 6 span 1;
+    grid-column: 6/ span 1;
+    grid-row: 3 span 1;
     border-radius: 20px;
 }
+

@@ -18,7 +18,7 @@
 }
 
 span {
-    color: #3670C7;
+    color: var(--indigo);
 }
 
 .header__btn-menu {
@@ -29,7 +29,7 @@ span {
     width: 151px;
     height: 54px;
     color: var(--main-color);
-    background: #3670C7;
+    background: var(--indigo);
     border-radius: 10px;
     border: none;
 }
@@ -59,7 +59,7 @@ span {
     right: 420px;
     width: 101px;
     height: 54px;
-    background: #3670C7;
+    background: var(--indigo);
     border-radius: 30px;
     border: none;
 
@@ -89,5 +89,5 @@ span {
     font-weight: 700;
     font-size: 16px;
     line-height: 130%;
-    color: #2D2D2D;
+    color: var(--main-black);
 }
