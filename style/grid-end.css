@@ -56,3 +56,35 @@
     border-radius: 20px;
 }
 
+
+
+
+@media all and (max-width:768px) {
+
+    .grid__item__wrapper-date {
+        grid-column: 1 / span 4;
+        grid-row: 5/ span 2;
+    }
+
+    .grid__item__wrapper-woman {
+        grid-column: 3 / span 1;
+        grid-row: 3/ span 2;
+    }
+
+    .grid__item__wrapper-clean {
+        grid-column: 4 / span 1;
+        grid-row: 3/ span 1;
+    }
+
+    .grid__item__wrapper-balls {
+        grid-column: 4 / span 1;
+        grid-row: 4/ span 1;
+    }
+    .grid__item__text-clean{
+        font-size: 16px;
+    }
+    .grid__item__text-date{
+        font-size: 20px;
+        width: 450px;
+    }
+}

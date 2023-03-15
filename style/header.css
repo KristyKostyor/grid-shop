@@ -30,6 +30,7 @@ span {
     background: var(--indigo);
     border-radius: 10px;
     border: none;
+
 }
 
 
@@ -91,4 +92,35 @@ span {
 }
 
 
-@media all and (max-width:768px) {}
+@media all and (max-width:768px) {
+    .header__content {
+        grid-template-rows: repeat(2, auto);
+        grid-template-columns: max-content auto;
+        gap: 30px;
+    }
+
+    .header__btn-search {
+
+        top: 115px;
+        right:  30px;
+        width: 101px;
+    }
+
+
+
+    .header__icon-block {
+        justify-content: flex-end;
+        gap: 25px;
+
+    }
+
+    .header__btn-menu {
+
+
+        grid-row: 2/ span 1;
+    }
+
+    .header__input {
+        grid-row: 2/ span 1;
+    }
+}

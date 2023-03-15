@@ -161,3 +161,50 @@
     align-items: center;
     justify-content: flex-end;
 }
+
+@media all and (max-width:768px) {
+    .product {
+        grid-auto-rows: auto;
+        grid-template-columns: repeat(2, 150px) 250px 115px;
+        grid-template-rows: 170px repeat(3, 170px) 350px;
+        gap: 15px;
+    }
+
+    .grid__item__wrapper-present {
+        grid-column: 1 / span 2;
+        grid-row: 3/ span 1;
+    }
+
+    .grid__item__wrapper-date {
+        grid-column: 1 / span 2;
+        grid-row: 4/ span 1;
+    }
+
+    .grid__item__wrapper-laptop {
+        grid-column: 1 / span 2;
+        grid-row: 4/ span 1;
+    }
+
+    .grid__item__text-book {
+        font-size: 16px;
+    }
+
+    .grid__item__text-watch {
+        font-size: 18px;
+
+    }
+
+    .grid__item__text-shoes {
+        font-size: 20px;
+    }
+
+    .grid__item__text-shoes span{
+        font-size: 25px;
+    }
+    .grid__item__text-present{
+        font-size: 25px;
+    }
+    .grid__item__text-laptop{
+        font-size: 25px;
+    }
+}

@@ -4,17 +4,16 @@
 }
 
 .grid__list {
- display: flex;
- justify-content: center;
- padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
 
 
 }
 
 .grid__item-one {
-    flex:1;
+    flex: 1;
     background-image: url('../img/banner.png');
-    height: 480px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -35,6 +34,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
+    padding-bottom:20px ;
 }
 
 .grid__item__wrapper-one {
@@ -58,4 +58,17 @@
     font-size: 32px;
     line-height: 130%;
     color: var(--main-color);
+}
+
+@media all and (max-width:768px) {
+    .grid__item__text-one {
+
+        font-size: 45px;
+
+    }
+
+    .grid {
+    
+        padding-bottom: 80px;
+    }
 }
