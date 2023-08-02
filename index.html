@@ -80,20 +80,20 @@
             <div class="grid">
                 <ul class="grid__list">
                     <li class="grid__item-one">
-
                         <p class="grid__item__text-one">-50% на все ноутбуки</p>
+
+                        <div class="timer" data-deadline="2023-08-10T19:31:59+03:00">
                         <div class="grid__item__block-one">
                             <p>До конца акции:</p>
                             <div class="grid__item__wrapper-one">
-                                <p class="grid__item__text-time">3 <span>дня</span> </p>
-                                <p class="grid__item__text-time">8 <span>часов</span> </p>
-                                <p class="grid__item__text-time grid__item__text-time_size">43<span>минуты</span></p>
+                                <p id="days" class="grid__item__text-time">3 <span>дня</span> </p>
+                                <p id="hours" class="grid__item__text-time">8 <span>часов</span> </p>
+                                <p id="minutes" class="grid__item__text-time grid__item__text-time_size">43<span>минуты</span></p>
                             </div>
+                        </div>
                         </div>
                     </li>
                 </ul>
-
-
                 <div class="product">
                     <div class="grid__item__wrapper grid__item__wrapper-book">
                         <p class="grid__item__text-book"><span>Книга –</span> лучший подарок</p>
@@ -151,12 +151,16 @@
 
                         </div>
                         <p class="grid__item__text-clean">На бытовую химию</p>
+                        <div class="timer" data-timer-deadline="2023-08-10T19:31:59+03:00"></div>
                     </div>
                     <div class="grid__item__wrapper grid__item__wrapper-balls"></div>
                 </div>
             </div>
         </div>
+        
     </main>
+    <script src="index.js"></script>
+    <script src="timerPlagin.js"></script>
 </body>
 
 </html>
